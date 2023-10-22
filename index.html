@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALCULATOR</title>
+  <link rel="icon"  href="images/calculator.png"/>
+  <link rel="stylesheet" href="styles/all.min.css"/>
+  <link rel="stylesheet" href="styles/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles/index.css"/>
+  <!-- description-->
+  <meta name="description" content="Java Script TASK 4  CALCULATOR 2">
+  <meta name="keywords" content=" Java Script tasks , Hesham Khalil , Maher Azeb">
+  <meta name="author" content="Maher Azeb">
+</head>
+
+<body class="d-flex justify-content-center">
+    <div class="d-flex flex-column position-absolute p-5 rounded-3 w-100 h-100 align-items-center
+               justify-content-center"
+        style="background-color:rgb(151, 151, 185)" id="overall">
+      
+      <div class="d-flex flex-column justify-content-center align-items-center position-absolute 
+                   p-4 rounded-3 h-75 top-50 m-6 border border-5 translate-middle-y 
+                  translate-middle-x shadow-sm p-3 mb-5 rounded-3" style="background-color:rgb(180, 180, 184)" 
+                  id="form">
+      
+      <span class="d-flex row justify-content-center align-items-center ">
+        <input id="screen" style="margin-top:8px;margin-bottom: 25px ; background-color: rgb(148, 58, 58) ; 
+        color:white; height: 40px; width: 250px; " type="text"/>
+      </span>
+      
+        <div class="d-flex flex-column justify-content-center align-items-center" id="firstRow"
+             style=" margin-top:20px;margin-bottom: 40px">
+          <span class="d-flex  position-absolute ">
+            <button class="btn btn-primary btn-lg mx-2">7</button>
+            <button class="btn btn-primary btn-lg mx-2">8</button>
+            <button class="btn btn-primary btn-lg mx-2">9</button>
+            <button class="btn btn-primary btn-lg mx-2">+</button>
+          </span>
+        </div>
+
+        <div id="seconRow" class="d-flex justify-content-center align-items-center" 
+             style="margin-top:20px;margin-bottom: 40px">
+          <span class="d-flex justify-content-evenly position-absolute">
+          <button class="btn btn-primary btn-lg mx-2">4</button>
+          <button class="btn btn-primary btn-lg mx-2">5</button>
+          <button class="btn btn-primary btn-lg mx-2">6</button>
+          <button class="btn btn-primary btn-lg mx-2">-</button>
+          </span>
+        </div>
+
+        <div id="ThirdRow" class="d-flex justify-content-center align-items-center"
+             style="margin-top:20px;margin-bottom: 40px;">
+          <span class="d-flex justify-content-evenly position-absolute">
+            <button class="btn btn-primary btn-lg mx-2">1</button>
+            <button class="btn btn-primary btn-lg mx-2">2</button>
+            <button class="btn btn-primary btn-lg mx-2">3</button>
+            <button class="btn btn-primary btn-lg mx-2">*</button>
+          </span>
+        </div>
+        
+        <div id="forthdRow" class="d-flex justify-content-center align-items-center" 
+             style="margin-top:20px;margin-bottom: 40px">
+          <span class="d-flex justify-content-evenly position-absolute">
+            <button class="btn btn-primary btn-lg mx-2">0</button>
+            <button class="btn btn-primary btn-lg mx-2.5">/</button>
+            <button class="btn btn-primary btn-lg mx-2" style="background-color:brown">del</button>
+            <button class="btn btn-primary btn-lg mx-2" style="background-color: rgb(240, 11, 11);">C</button>
+          </span>
+        </div>
+        
+        
+      
+      <div >
+        <button class="btn btn-success justify-content-center"
+                style="width: 100%;height: 40px; padding-left:120px ; padding-right:120px;">=</button>
+      </div>
+
+    </div>
+
+    </div>
+              
+  <script src="java/bootstrap.bundle.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
